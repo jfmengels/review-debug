@@ -1,3 +1,15 @@
+# DEPRECATED
+
+This package was republished as [`jfmengels/elm-review-debug`](https://package.elm-lang.org/packages/jfmengels/elm-review-debug/latest/) in order to have a more consistent naming convention for `elm-review` rule packages.
+
+To migrate, I recommend going to your review configuration and running the following commands:
+
+```bash
+# NOTE: You'll need to have Node.js installed to be able to use `npx`
+npx elm-json uninstall jfmengels/review-debug --yes
+npx elm-json install jfmengels/elm-review-debug --yes
+```
+
 # review-debug
 
 Provides [`elm-review`](https://package.elm-lang.org/packages/jfmengels/elm-review/latest/) rules to detect debug code.
